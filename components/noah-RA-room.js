@@ -239,7 +239,8 @@ AFRAME.registerComponent('resonance-audio-room', {
       value: isDesktop ? 'Press Any Key' : 'Click for Audio',
       geometry: 'plane',
       align: 'center',
-      color: 'red'
+      color: 'red',
+      visible: 'false'
     })
     clickForAudioEl.object3D.position.set(0, 0.1, -.7)
     this.clickForAudioEl = clickForAudioEl
