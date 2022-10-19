@@ -236,7 +236,7 @@ AFRAME.registerComponent('resonance-audio-room', {
     //add click instructions
     var clickForAudioEl = document.createElement('a-entity')
     clickForAudioEl.setAttribute('text', {
-      value: isDesktop ? 'Press Any Key' : 'Click for Audio',
+      value: isDesktop ? 'Press Any Keyy' : 'Click for Audio',
       geometry: 'plane',
       align: 'center',
       color: 'red',
